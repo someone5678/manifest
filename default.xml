@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/xiaomi-sm8450-kernel/" name="xiaomi-sm8450-kernel" revision="zeus-s-oss"/>
+  <remote fetch="https://github.com/xiaomi-sm8450-kernel/" name="xiaomi-sm8450-kernel" revision="lineage-20"/>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
   <default remote="clo" revision="kernel.build.lnx.1.0" sync-j="8"/>
 
@@ -15,6 +15,8 @@
     <linkfile dest="kernel_platform/common/build.config.msm.cupid.tuivm" src="build.config.msm.cupid.tuivm"/>
     <linkfile dest="kernel_platform/common/build.config.msm.zeus" src="build.config.msm.zeus"/>
     <linkfile dest="kernel_platform/common/build.config.msm.zeus.tuivm" src="build.config.msm.zeus.tuivm"/>
+    <linkfile dest="kernel_platform/common/build.config.msm.mondrian" src="build.config.msm.mondrian"/>
+    <linkfile dest="kernel_platform/common/build.config.msm.mondrian.tuivm" src="build.config.msm.mondrian.tuivm"/>
   </project>
   <project name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="10ab783184f77d3ea15bf666426a7138b0f62bfc" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel"/>
   <project name="kernel_platform/external/dtc" revision="b5a44a6e8c72c9fc5d72c6cff09ee3b9a86da769" upstream="refs/heads/kernel.build.lnx.1.0.r1-rel"/>
