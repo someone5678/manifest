@@ -7,7 +7,7 @@
 
   <!-- Kernel platform manifest -->
   <project name="android_kernel_platform_build" path="kernel_platform/build" upstream="refs/heads/kernel.lnx.5.10.r1-rel" remote="xiaomi-sm8450-kernel"/>
-  <project groups="qki" name="kernel/common" path="kernel_platform/common" revision="061410a787bbe35cea1e70c63daf597323f8cd2c" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel"/>
+  <project groups="qki" name="kernel/common" path="kernel_platform/common" revision="80e34ba9e3d3b2100205df002553f83979e1b0ab" upstream="refs/heads/ks-kernel.lnx.1.0.r1-rel"/>
   <project name="android_kernel_platform_msm-kernel" path="kernel_platform/msm-kernel" upstream="refs/heads/kernel.lnx.5.10.r1-rel" remote="xiaomi-sm8450-kernel">
     <linkfile dest="kernel_platform/common/build.config.msm.waipio" src="build.config.msm.waipio"/>
     <linkfile dest="kernel_platform/common/build.config.msm.waipio.tuivm" src="build.config.msm.waipio.tuivm"/>
